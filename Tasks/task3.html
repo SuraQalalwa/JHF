@@ -8,22 +8,8 @@
         body {
             display: grid;
             justify-content: center;
-            background-color: #f0f0f0; /* Light background for better contrast */
+            background-color: #f0f0f0;
         }
-
-        .container {
-            display: grid;
-            grid-template-rows: auto auto 1fr auto;
-            grid-template-columns: 4fr 100px;
-            grid-template-areas: 
-                "header header"
-                "nav nav"
-                "article aside"
-                "footer footer";
-            width: 80%;
-            gap: 10px;
-        }
-
         header {
             grid-area: header;
             background-color: #fea685;

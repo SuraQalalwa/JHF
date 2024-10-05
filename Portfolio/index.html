@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sura Qalalwa Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+  <body>
+    <header class="container">
+      <h1>Sura Qalalwa</h1>
+      <h2>Entry-Level Software Engineer</h2>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="myBtn">Fun fact</button></li>
+          <li><button id="toggleSBtn">Toggle Skills</button></li>
+          <li><button id="theme-switcher">Switch Theme</button></li>
+
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Highly skilled software developer with a passion for self-development
+          and continuous learning. Proven ability to solve complex problems and
+          work effectively in a team-based environment. Seeking a challenging
+          role where I can use my skills to make a positive impact.
+        </p>
+        <p id = "demo"></p>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div>
+          <ul>
+            <li>React.js</li>
+            <li>Express.js</li>
+            <li>Node.js</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>Git & GitHub</li>
+            <li>Java</li>
+          </ul>
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+          <div class="card">
+            <h3>E-medical_Project</h3>
+            <p>
+              Our project is a website for booking online to clinic and a doctor
+              that will make it easy for the patient to navigate through
+              different clinics that are in website.
+            </p>
+            <a
+              href="https://github.com/SuraQalalwa/E-medical_Project"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+          <div class="card">
+            <h3>Arcane</h3>
+            <p>
+              Project is made to make polls for People have accounts on the
+              website and everyone can vote to that polls by sending the link of
+              it
+            </p>
+            <a href="https://github.com/SuraQalalwa/Arcane" target="_blank"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          If you have any questions or want to reach out, feel free to send me a
+          message below!
+        </p>
+        <form action="your-server-endpoint" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              required
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <div class="button-form-div">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="container">
+      <p>
+        &copy; 2024 Sura Qalalwa |
+        <a href="https://github.com/SuraQalalwa" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/suraqalalwa/" target="_blank"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
+    <a href="#top" class="scroll-to-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="none"
+        viewBox="0 0 24 20"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 10l7-7 7 7M12 17V3"
+        />
+      </svg>
+    </a>
+    <script src="main.js"></script>
+  </body>
+</html>
